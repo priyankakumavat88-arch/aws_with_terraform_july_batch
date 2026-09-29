@@ -1,0 +1,9 @@
+aws_region     = "ap-south-1"
+aws_vpc_cidr   = "10.0.0.0/16"
+environment    = "dev"
+enable_dns_support   = true
+enable_dns_hostnames = true
+public_subnet_01_cidr = "10.0.1.0/24"
+public_subnet_01_availability_zone = "ap-south-1a"
+private_subnet_01_cidr = "10.0.11.0/24"
+private_subnet_01_availability_zone = "ap-south-1b"
