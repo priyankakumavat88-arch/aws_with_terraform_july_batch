@@ -74,3 +74,6 @@ Day-01/.terraform/providers/registry.terraform.io/hashicorp/aws/6.66.0/windows_a
 *.pem
 C:\aws_with_terraform_july_batch\environments\networking\VPC\dev\.terraform\*
 C:\aws_with_terraform_july_batch\environments\networking\VPC\dev\.terraform.lock.hcl
+C:\aws_with_terraform_july_batch\environments\compute\EC2\dev\.terraform\*
+C:\aws_with_terraform_july_batch\environments\compute\EC2\dev
+C:\aws_with_terraform_july_batch\environments\compute\EC2\dev\.terraform.lock.hcl
