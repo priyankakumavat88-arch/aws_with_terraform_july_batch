@@ -80,3 +80,15 @@ C:\aws_with_terraform_july_batch\environments\compute\EC2\dev\.terraform.lock.hc
 C:\aws_with_terraform_july_batch\environments\security\security-groups\dev\.terraform
 C:\aws_with_terraform_july_batch\environments\storage\S3\dev\.terraform
 C:\aws_with_terraform_july_batch\environments\storage\S3\dev\.terraform.lock.hcl
+C:\aws_with_terraform_july_batch\environments\DNS\.terraform
+C:\aws_with_terraform_july_batch\environments\DNS\.terraform.lock.hcl
+environments/security/acm/.terraform.lock.hcl
+environments/DNS/.terraform.lock.hcl
+
+# Terraform local and sensitive files
+*.tfvars
+*.pem
+*.tfstate
+*.tfstate.*
+.terraform/
+*.tfplan

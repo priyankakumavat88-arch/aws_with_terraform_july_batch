@@ -1,24 +1,18 @@
 variable "aws_region" {
-  description = "The AWS region to deploy resources"
-  type        = string
+  default = "ap-south-1"
 }
 
 variable "bucket_name" {
-  description = "The name of the S3 bucket"
-  type        = string
+  type = string
 }
 
 variable "environment" {
-  description = "The environment for the S3 bucket"
-  type        = string
+  type    = string
+  default = "dev"
 }
 
-variable "aws_s3_bucket_versioning" {
-  description = "Enable versioning for the S3 bucket"
-  type        = string
+variable "tags" {
+  type    = map(string)
+  default = {}
 }
 
-variable "aws_s3_bucket_acl" {
-  description = "The ACL to apply to the S3 bucket"
-  type        = string
-}
