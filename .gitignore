@@ -96,3 +96,5 @@ environments/DNS/.terraform.lock.hcl
 C:\aws_with_terraform_july_batch\environments\vpc-Peering\.terraform.lock.hcl
 C:\aws_with_terraform_july_batch\environments\vpc-Peering\.terraform
 environments/vpc-Peering/.terraform.lock.hcl
+C:\aws_with_terraform_july_batch\environments\network\vpc\dev\.terraform.lock.hcl
+environments/network/vpc/dev/.terraform.lock.hcl
