@@ -5,6 +5,7 @@ on:
 env:
   WORKFLOW_VAR: I_AM_WORKFLOW_SCOPED
 jobs:
+
   job1: 
     runs-on: ubuntu-22.04
     env:
@@ -17,14 +18,12 @@ jobs:
           echo "WORKFLOW_VAR:  $WORKFLOW_VAR" 
           echo "JOB1_VAR: $JOB1_VAR"
           echo "STEP1_VAR: $STEP1_VAR"
-        
+
       - name: inspect scopes job 1 step 2
         run: |
           echo "WORKFLOW_VAR:  $WORKFLOW_VAR" 
           echo "JOB1_VAR: $JOB1_VAR"
           echo "STEP1_VAR: ${STEP1_VAR:-<UNSET>}"
-
-
   job2: 
     runs-on: ubuntu-22.04
     steps: 
