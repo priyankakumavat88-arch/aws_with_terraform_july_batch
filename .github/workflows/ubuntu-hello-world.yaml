@@ -1,0 +1,8 @@
+name: priya hello world github action 1st day of learning
+on:
+  workflow_dispatch:
+jobs:
+  say-hello-inline-bash:
+    runs-on: ubuntu-22.04
+    steps:
+      - run: echo "Hello from Priyanka this is my first hello world linux GitHub Actions!"
