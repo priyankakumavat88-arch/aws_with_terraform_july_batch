@@ -1,0 +1,10 @@
+name: main branch push auto-triggered pipeline
+on:
+  push:
+    branches:
+      - main
+jobs:
+  say-hello-inline-bash:
+    runs-on: windows-2025
+    steps:
+      - run: echo "This pipeline will getv automatically triggered when a push is made to the main branch of the repository!"
