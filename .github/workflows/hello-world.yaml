@@ -3,6 +3,6 @@ on:
   workflow_dispatch:
 jobs:
   say-hello-inline-bash:
-    runs-on: windows-2025
+    runs-on: ubuntu-latest
     steps:
       - run: echo "Hello from Priyanka this is my first hello world linux GitHub Actions!"
